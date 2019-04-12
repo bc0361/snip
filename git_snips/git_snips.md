@@ -1,6 +1,9 @@
 
 1. push to remote
-
+    ``` git
+    git push origin master
+    git push -f origin master
+    ```
 
 2. overwrite all local files. Match local with remote
 ``` git
@@ -42,5 +45,10 @@
    # stage 0nly the files in the current working dir
    git add .
    ```
-   
+7. Add a remote
+   ``` git
+   git remote add origin https://github.com/user/repo.git
+   git remote -v
+   git remote show origin
+   ```
 
