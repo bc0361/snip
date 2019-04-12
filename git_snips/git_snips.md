@@ -22,11 +22,6 @@
     git clean -n  # show what will be deleted
     git clean -f  # delete untraced files
 ```
-3. push to remote
-   ``` git
-   git push origin master
-   ```
-
 4. Set global user.name and user.email
    ``` git
    git config --global user.name "name here"
